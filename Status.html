@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reptide Hosting - Server Status</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1e1e2f;
+      color: #fff;
+    }
+
+    header {
+      background-color: #2b2b3d;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .server-list {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 10px;
+      border-collapse: collapse;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #444;
+    }
+
+    th {
+      background-color: #2b2b3d;
+      color: #ffcc00;
+      text-align: center;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    .status-online {
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .status-offline {
+      color: #dc3545;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Reptide Hosting - Minecraft Server Status
+  </header>
+
+  <div class="server-list">
+    <table>
+      <thead>
+        <tr>
+          <th>Node</th>
+          <th>Location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Node 1</td>
+          <td>India</td>
+          <td class="status-online">ONLINE</td>
+        </tr>
+        <tr>
+          <td>Node 2</td>
+          <td>IND</td>
+          <td class="status-offline">Offline</td>
+        </tr>
+        <tr>
+          <td>Node 3</td>
+          <td>IND</td>
+          <td class="status-online">ONLINE</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
